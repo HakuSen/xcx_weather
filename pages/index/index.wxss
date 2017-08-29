@@ -1,21 +1,63 @@
-/**index.wxss**/
-.userinfo {
+.basic_info{
+  background-color: #48c44a;
+  color:#fff;
+  text-align: center;
+  font-size: 12px;
+  width: 100%;
+}
+.state{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.state_main{
   display: flex;
   flex-direction: column;
+  text-align: left;
+  justify-content:space-between;
+  height: 2rem;
+  margin-left: 1rem;
+}
+.city{
+  font-size: 14px;
+}
+.degree{
+  font-size: 20px;
+}
+.city,.degree{
+  margin:1rem 0;
+}
+.degree{
+  margin-left:1rem;
+}
+.air_quality{
+  margin-bottom: 1rem;
+}
+
+.week_info{
+  width:90%;
+  margin:.5rem 0;
+  background-color: #fff;
+  font-size: 14px;
+  color:#333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:.5rem 1rem;
+  height: 2rem;
+}
+.left{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
   align-items: center;
 }
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
+.day_state{
+  height: 25px;
+  margin-left: -1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content:space-between;
+  font-size: 10px;
 }

@@ -1,10 +1,50 @@
 <!--index.wxml-->
 <view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  <!--basic_info start-->
+  <view class="basic_info">
+    <view class="city">上海</view>
+    <view class="state">
+      <icon type="success" size="40" color="white" />
+      <view class="state_main">
+        <text>多云</text>
+        <text>北风3级</text>
+      </view>
+    </view>
+    <view class="degree">34°</view>
+    <view class="air_quality">
+      湿度:59 PM2.5:55 良
+    </view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <!--basic_info end-->
+
+  <!--week_info start-->
+  <view class="week_info">
+    <view class="left">
+      <text>今天</text>
+      <text>周四</text>
+      <icon type="success" color="green" size="25" />
+      <view class="day_state">
+        <text>多云</text>
+        <text>西南风 微风</text>
+      </view>
+    </view>
+    <view class="right">
+      26~36°
+    </view>
   </view>
+  <view class="week_info">
+    <view class="left">
+      <text>今天</text>
+      <text>周四</text>
+      <icon type="success" color="green" size="25" />
+      <view class="day_state">
+        <text>多云</text>
+        <text>西南风 微风</text>
+      </view>
+    </view>
+    <view class="right">
+      26~36°
+    </view>
+  </view>
+  <!--week_info end-->
 </view>
