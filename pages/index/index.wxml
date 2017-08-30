@@ -2,17 +2,17 @@
 <view class="container">
   <!--basic_info start-->
   <view class="basic_info">
-    <view class="city">上海</view>
+    <view class="city">{{city}}</view>
     <view class="state">
       <icon type="success" size="40" color="white" />
       <view class="state_main">
-        <text>多云</text>
-        <text>北风3级</text>
+        <text>{{basicdata.today.weather}}</text>
+        <text>{{basicdata.sk.wind_direction}}{{basicdata.sk.wind_strength}}</text>
       </view>
     </view>
-    <view class="degree">34°</view>
+    <view class="degree">{{basicdata.sk.temp}}°</view>
     <view class="air_quality">
-      湿度:59 PM2.5:55 良
+      湿度:{{basicdata.sk.humidity}}  {{basicdata.today.dressing_index}}
     </view>
   </view>
   <!--basic_info end-->
