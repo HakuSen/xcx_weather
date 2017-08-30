@@ -40,7 +40,7 @@ Page({
 
         //小程序获取接口数据
         wx.request({
-          url: 'http://v.juhe.cn/weather/index',
+          url: 'https://v.juhe.cn/weather/index',
           data: {
             cityname: res.data.result.addressComponent.city,
             key: '4875a2834124a91a2acda3b5b1808a88'

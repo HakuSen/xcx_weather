@@ -1,5 +1,6 @@
 <!--index.wxml-->
 <view class="container">
+<view class="classname">eeeee</view>
   <!--basic_info start-->
   <view class="basic_info">
     <view class="city">{{city}}</view>
