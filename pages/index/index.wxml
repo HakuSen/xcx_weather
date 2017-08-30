@@ -4,7 +4,8 @@
   <view class="basic_info">
     <view class="city">{{city}}</view>
     <view class="state">
-      <icon type="success" size="40" color="white" />
+      <!--<icon type="success" size="40" color="white" />-->
+      <text class="iconfont {{weatherstate}}"></text>
       <view class="state_main">
         <text>{{basicdata.today.weather}}</text>
         <text>{{basicdata.sk.wind_direction}}{{basicdata.sk.wind_strength}}</text>
@@ -18,32 +19,17 @@
   <!--basic_info end-->
 
   <!--week_info start-->
-  <view class="week_info">
+  <view class="week_info" wx:for="{{future}}">
     <view class="left">
-      <text>今天</text>
-      <text>周四</text>
-      <icon type="success" color="green" size="25" />
+      <text>{{item.date}}</text>
+      <text>{{item.week}}</text>
       <view class="day_state">
-        <text>多云</text>
-        <text>西南风 微风</text>
+        <text>{{item.weather}}</text>
+        <text>{{item.wind}}</text>
       </view>
     </view>
     <view class="right">
-      26~36°
-    </view>
-  </view>
-  <view class="week_info">
-    <view class="left">
-      <text>今天</text>
-      <text>周四</text>
-      <icon type="success" color="green" size="25" />
-      <view class="day_state">
-        <text>多云</text>
-        <text>西南风 微风</text>
-      </view>
-    </view>
-    <view class="right">
-      26~36°
+      {{item.temperature}}
     </view>
   </view>
   <!--week_info end-->

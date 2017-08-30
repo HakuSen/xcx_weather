@@ -1,3 +1,4 @@
+@import '/assert/icon.wxss';
 .basic_info{
   background-color: #48c44a;
   color:#fff;
@@ -49,7 +50,7 @@
 .left{
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  width: 70%;
   align-items: center;
 }
 .day_state{

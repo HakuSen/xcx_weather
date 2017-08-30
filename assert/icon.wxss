@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_8sgr9zs8enb6s9k9.eot?t=1477547815715'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_8sgr9zs8enb6s9k9.eot?t=1477547815715#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_8sgr9zs8enb6s9k9.woff?t=1477547815715') format('woff'), /* chrome, firefox */
+  url('//at.alicdn.com/t/font_8sgr9zs8enb6s9k9.ttf?t=1477547815715') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_8sgr9zs8enb6s9k9.svg?t=1477547815715#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 40px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    width:40px;
+    height:40px;
+}
+
+.icon-weathercloudy:before {
+    content: "\e600";
+}
+
+.icon-weathersnow:before {
+    content: "\e723";
+}
+
+.icon-spinner:before {
+    content: "\e614";
+}
+
+.icon-maihaze:before {
+    content: "\e66e";
+}
+
+.icon-tianqizitiku33:before {
+    content: "\e630";
+}
+
+.icon-yin:before {
+    content: "\e646";
+}
+
+.icon-weather:before {
+    content: "\e613";
+}
+
+.icon-weatherfog:before {
+    content: "\eb75";
+}
+
+.icon-weathernight:before {
+    content: "\eb78";
+}
+
+.icon-weatherrainy:before {
+    content: "\eb7b";
+}
+
+.icon-weatherwindy:before {
+    content: "\eb8c";
+}
