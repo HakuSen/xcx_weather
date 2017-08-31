@@ -93,6 +93,14 @@ Page({
         x = '中雨转小雨';
         y = 'icon-yin';
         break;
+      case '阴转阵雨':
+        x = '阴转阵雨';
+        y = 'icon-1';
+        break;
+      case '阵雨':
+        x = '阵雨';
+        y = 'icon-1';
+        break;
       case '中雨':
         x = '中雨';
         y = 'icon-weatherrainy';

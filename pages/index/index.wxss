@@ -55,7 +55,7 @@
 }
 .day_state{
   height: 25px;
-  margin-left: -1rem;
+  width: 65px;
   display: flex;
   flex-direction: column;
   text-align: left;
