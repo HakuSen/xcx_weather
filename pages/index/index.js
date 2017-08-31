@@ -49,6 +49,7 @@ Page({
             'content-type': 'application/json'
           },
           success: function (res) {
+            wx.hideLoading()
             console.log(res.data)
             var weekWeather = [];
             var data = res.data.result.future
@@ -129,6 +130,10 @@ Page({
     return [x, y];
   },
   onLoad: function () {
+    wx.showLoading({
+      title: '加载中',
+      mask: true
+    })
     this.basicData()
   }
 })

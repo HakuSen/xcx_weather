@@ -1,6 +1,6 @@
 @import '/assert/icon.wxss';
 .basic_info{
-  background-color: #48c44a;
+  background-color: #ff5800;
   color:#fff;
   text-align: center;
   font-size: 12px;
