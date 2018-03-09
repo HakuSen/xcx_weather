@@ -43,7 +43,7 @@ Page({
           url: 'https://v.juhe.cn/weather/index',
           data: {
             cityname: res.data.result.addressComponent.city,
-            key: '4875a2834124a91a2acda3b5b1808a88'
+            key: 'e536a0798e17030e72f799a54e02770a'
           },
           header: {
             'content-type': 'application/json'
